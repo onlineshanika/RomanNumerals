@@ -71,7 +71,15 @@ validation
 1.check null
 2.check length
 3.check regex
-
-
-
+loop the roman string  i
+number =0
+      if the char is I,X,C == >
+                 I -->  if it's not the last number and next number is if (V || X) THEN number - 1  else number =+ 1
+                 X -->  if it's not the last number and next number is if ( L|| C ) THEN number - 10 else number =+ 10
+                 X -->  if it's not the last number and next number is if ( D|| M )  THEN number - 100  else number =+ 100
+      else
+           if the char is V --> number =+ 5
+           if the char is L --> number =+ 50
+           if the char is D --> number =+ 500
+           if the char is M --> number =+ 1000
  */
