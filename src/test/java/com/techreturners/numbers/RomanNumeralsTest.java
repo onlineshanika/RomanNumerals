@@ -37,4 +37,14 @@ public class RomanNumeralsTest {
             }
         });
     }
+
+    @Test
+    public void minusValueTest() {
+        assertThrows(OutOfRangeException.class, new Executable() {
+            @Override
+            public void execute() throws Throwable {
+                new RomanNumerals().convertToRomanNumerals(-45);
+            }
+        });
+    }
 }

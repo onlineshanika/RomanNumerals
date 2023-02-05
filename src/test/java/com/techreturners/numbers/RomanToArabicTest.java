@@ -11,7 +11,7 @@ public class RomanToArabicTest {
     public void convertToRomanNumeralsTest() throws OutOfRangeException {
 
         RomanToArabic romanToArabic = new RomanToArabic();
-        assertEquals(0, romanToArabic.convertToArabicNumerals("0"));
+        assertEquals(1, romanToArabic.convertToArabicNumerals("I"));
 //        assertEquals(2948, romanToArabic.convertToArabicNumerals("MMCMXLVIII"));
 
     }
