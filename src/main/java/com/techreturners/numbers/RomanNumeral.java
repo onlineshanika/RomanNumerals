@@ -20,11 +20,11 @@ public enum RomanNumeral {
         return value;
     }
 
-    public static List<RomanNumeral> getReverseSortedValues() {
-        return Arrays.stream(values())
-                .sorted(Comparator.comparing((RomanNumeral e) -> e.value).reversed())
-                .collect(Collectors.toList());
-    }
+//    public static List<RomanNumeral> getReverseSortedValues() {
+//        return Arrays.stream(values())
+//                .sorted(Comparator.comparing((RomanNumeral e) -> e.value).reversed())
+//                .collect(Collectors.toList());
+//    }
 
     public static List<RomanNumeral> getRomanNumeralValues() {
         return Arrays.stream(values()).toList();

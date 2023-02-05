@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="868ae220-7a7a-45a4-9910-4c0fad354a94" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techreturners/numbers/CustomErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techreturners/numbers/CustomErrorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/techreturners/numbers/RomanNumeral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techreturners/numbers/RomanNumeral.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/techreturners/numbers/RomanToArabic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techreturners/numbers/RomanToArabic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/techreturners/numbers/RomanToArabicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/techreturners/numbers/RomanToArabicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/techreturners/numbers/testData.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/techreturners/numbers/CustomErrorMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/techreturners/numbers/CustomErrorMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/techreturners/numbers/RomanNumeral.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/techreturners/numbers/RomanNumeral.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.techreturners.numbers.RomanNumeralsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.techreturners.numbers.RomanNumeralsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.techreturners.numbers.RomanNumeralsTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.techreturners.numbers.RomanNumeralsTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +56,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/Shanika/Java/exercises/RomanNumerals/src/test/java/com/techreturners/numbers",
+    "last_opened_file_path": "/Users/Shanika/Java/exercises/RomanNumerals/src/test/resources",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/test/java/com/techreturners/numbers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -59,22 +70,7 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.RomanToArabicTest.testWithCsvFileSourceFromClasspath">
-    <configuration name="RomanNumeralsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RomanNumerals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.techreturners.numbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.techreturners.numbers" />
-      <option name="MAIN_CLASS_NAME" value="com.techreturners.numbers.RomanNumeralsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RomanToArabicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanToArabicTest.convertToRomanNumeralsInvalidInputTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumerals" />
       <extension name="coverage">
         <pattern>
@@ -84,12 +80,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.techreturners.numbers" />
       <option name="MAIN_CLASS_NAME" value="com.techreturners.numbers.RomanToArabicTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="convertToRomanNumeralsInvalidInputTest(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToArabicTest.convertToRomanNumeralsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanToArabicTest.convertToRomanNumeralsInvalidInputTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumerals" />
       <extension name="coverage">
         <pattern>
@@ -99,7 +96,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.techreturners.numbers" />
       <option name="MAIN_CLASS_NAME" value="com.techreturners.numbers.RomanToArabicTest" />
-      <option name="METHOD_NAME" value="convertToRomanNumeralsTest" />
+      <option name="METHOD_NAME" value="convertToRomanNumeralsInvalidInputTest(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanToArabicTest.convertToRomanNumeralsInvalidInputTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanNumerals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techreturners.numbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techreturners.numbers" />
+      <option name="MAIN_CLASS_NAME" value="com.techreturners.numbers.RomanToArabicTest" />
+      <option name="METHOD_NAME" value="convertToRomanNumeralsInvalidInputTest(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanToArabicTest.convertToRomanNumeralsInvalidInputTest (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanNumerals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techreturners.numbers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techreturners.numbers" />
+      <option name="MAIN_CLASS_NAME" value="com.techreturners.numbers.RomanToArabicTest" />
+      <option name="METHOD_NAME" value="convertToRomanNumeralsInvalidInputTest(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,9 +166,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RomanToArabicTest.testWithCsvFileSourceFromClasspath" />
-        <item itemvalue="JUnit.RomanToArabicTest.convertToRomanNumeralsTest" />
-        <item itemvalue="JUnit.RomanToArabicTest" />
-        <item itemvalue="JUnit.RomanNumeralsTest" />
+        <item itemvalue="JUnit.RomanToArabicTest.convertToRomanNumeralsInvalidInputTest (4)" />
+        <item itemvalue="JUnit.RomanToArabicTest.convertToRomanNumeralsInvalidInputTest (3)" />
+        <item itemvalue="JUnit.RomanToArabicTest.convertToRomanNumeralsInvalidInputTest (2)" />
+        <item itemvalue="JUnit.RomanToArabicTest.convertToRomanNumeralsInvalidInputTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -195,13 +225,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/techreturners/numbers/RomanToArabic.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="7" />
+          <line>62</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/techreturners/numbers/RomanToArabic.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="9" />
+          <line>64</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/techreturners/numbers/RomanToArabic.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
