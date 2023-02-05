@@ -8,11 +8,10 @@ public class RomanToArabicTest {
 
 
     @Test
-    public void convertToRomanNumeralsTest() throws OutOfRangeException {
+    public void convertToRomanNumeralsTest() throws OutOfRangeException, InvalidateInputFormatException, InvalidateInputException {
 
         RomanToArabic romanToArabic = new RomanToArabic();
-        assertEquals(1, romanToArabic.convertToArabicNumerals("I"));
-//        assertEquals(2948, romanToArabic.convertToArabicNumerals("MMCMXLVIII"));
+        assertEquals(2948, romanToArabic.convertToArabicNumerals("MMCMXLVIII"));
 
     }
 }
